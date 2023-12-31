@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mole Cricket</title>
+  <link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body id="index">
+  <header>
+    <div id="clearfix">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Main Logo.png" alt="Mole Cricket">
+        </a>
+      </div>
+      <nav>
+        <ul class="global-nav">
+          <li><a href="novels.html">Novels</a></li>
+          <li><a href="papercraft.html">Papercraft</a></li>
+          <li><a href="article.html">Article</a></li>
+          <li><a href="https://mole-cricket-kera.blogspot.com/">Blog</a></li>
+          <li><a href=".html"></a>工事中</li>
+          <li><a href="others.html">Others</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="history">
+      <a href="history.html">更新履歴</a>
+    </div>
+  </header>
+
+  <div id="wrap" class="clearfix">
+    <div class="content">
+      <div class="main">
+        <h1>サイトマップ</h1>
+        <p>画像をクリックして各ページに移動できます</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-buttons">
+      <!-- トップページへ戻る画像リンク -->
+      <a href="index.html">
+        <img src="images/HOME.png" alt="Back to index">
+      </a>
+
+      <!-- 現在のページの最上にリロードなしで戻る画像ボタン -->
+      <img id="scrollToTop" src="images/UP.png" alt="Back to Top" onclick="scrollToTop()">
+    </div>
+  </footer>
+
+  <script>
+    // When the user clicks on the image, scroll to the top of the document
+    function scrollToTop() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+</body>
+
+</html>
